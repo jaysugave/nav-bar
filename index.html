@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar project</title>
+    <style>
+        .outer-cont{
+        border: 1px solid black;
+        display:flex;
+        flex-wrap: wrap;
+        background-color: black; 
+        }
+        .inner{
+            margin: 5px;
+            padding: 3px;
+            color: antiquewhite;
+            background-color: cadetblue;
+            border: 1px solid white;
+            flex:1;
+        }
+        .extreme-outer{
+            border: 5px solid black;
+        }
+        .image{
+            border:1px solid black;
+            display: inline-flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top:20px;
+            height:260px;
+            width: 260px;
+        }
+        img{
+            height:260px;
+            width: 260px;
+        }
+    </style>
+</head>
+<body>
+        <div class="outer-cont">
+            <div class="inner" >Home </div>
+            <div class="inner">About</div>
+            <div class="inner" >Services</div>
+            <div class="inner">Contacts</div>
+            <div class="inner" >profile</div>
+            <div class="inner">details</div>
+        </div>
+        <div class="image"> 
+            <img src="./jays.jpeg"/>
+        </div>
+
+</body>
+</html>
